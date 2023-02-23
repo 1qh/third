@@ -7,7 +7,7 @@ const DisplayCampaigns = ({ isLoading, campaigns }: any) => {
 			{!isLoading && campaigns.length === 0 && <p>No campaign available</p>}
 			{!isLoading &&
 				campaigns.length > 0 &&
-				campaigns.map((campaign: any) => <FundCard {...campaign} />)}
+				campaigns.map((campaign: any) => <FundCard key={campaign.pId} {...campaign} />)}
 		</div>
 	)
 }
