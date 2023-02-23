@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "build": "pnpm dlx thirdweb@latest detect",
+    "deploy": "pnpm dlx thirdweb@latest deploy",
+    "release": "pnpm dlx thirdweb@latest release"
+  },
+  "dependencies": {
+    "@thirdweb-dev/contracts": "^3.4.2"
+  },
+  "devDependencies": {
+    "hardhat": "^2.12.7"
+  }
+}
